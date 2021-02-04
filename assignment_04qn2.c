@@ -1,4 +1,3 @@
-// [Yesterday 10:03 PM] HARSHITA SINGH
 // Write a C program to input week number(1-7) and print the corresponding day of week name using if else.
 #include<stdio.h>
 int main()
