@@ -1,5 +1,5 @@
 #include<stdio.h>// 
-void function(int a[], int num, int level){
+void function(int *a, int num, int level){
       for(int i=0;i<num;i++){
           a[i]=level*(i+1);
       }
