@@ -1,2 +1,0 @@
-
-    printf("This  is thrusday");

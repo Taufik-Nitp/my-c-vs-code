@@ -1,22 +1,8 @@
-#include<stdio.h>// 
-void function(int a[], int num, int level){
-      for(int i=0;i<num;i++){
-          a[i]=level*(i+1);
-      }
-      for (int i=0;i<num;i++){
-          printf("%d x %d = %d\n",level,(i+1),a[i]);
-      }
-}
+#include<stdio.h>// Create a three dimensional array and print the adress of its element in increasing order.
 int main()
 {
-    int size1,size2;
-    printf("write the value upto which you want multiplication and how far the multiplication should go on\n");
-    scanf("%d%d",&size1,&size2);
-int a[size1][size2];
-for(int j=2;j<size2;j++){
-for(int i=0;i<size1;i++){
-    function(a[i],size2,j);
-}
-}
+int multidimention[2];
+printf("the adress is%d",multidimention[0]);
+
 return 0;
 }

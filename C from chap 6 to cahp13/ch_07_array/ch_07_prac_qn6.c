@@ -1,5 +1,5 @@
-#include<stdio.h>// 
-void function(int *a, int num, int level){
+#include<stdio.h>//  write a program in which you have to print the multiplication from 2 to desired number and the length of the multiplication is user defined using array.
+void function(int a[], int num, int level){     // it works but it print two times consequently.
       for(int i=0;i<num;i++){
           a[i]=level*(i+1);
       }

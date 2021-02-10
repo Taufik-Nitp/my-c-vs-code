@@ -9,23 +9,11 @@ void function(int a[], int num, int level){
 }
 int main()
 {
-    int mult[5][9];
+    int mult[3][10];
 
     function(mult[0],10,2);
     function(mult[1],10,7);
     function(mult[2],10,9);
-
-
-
-
-
-
-
-
-
-
-
-
 // int mult[3][10];
 // for (int j=0;j<10;j++){
     
